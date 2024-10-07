@@ -23,6 +23,6 @@ public class EmployeeController {
 
     public String saveEmployee(EmployeeBean employeeBean) {
         employeeService.save(employeeBean);
-        return "index.xhtml";
+        return "index123.xhtml";
     }
 }
