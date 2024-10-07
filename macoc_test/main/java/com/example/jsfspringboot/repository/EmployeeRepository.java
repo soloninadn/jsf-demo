@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface EmployeeRepository extends CrudRepository<EmployeeEntity, Integer> {
 
-    List<EmployeeEntity> findAll();
+    List<EmployeeEntity> findAllTest();
 
 }
