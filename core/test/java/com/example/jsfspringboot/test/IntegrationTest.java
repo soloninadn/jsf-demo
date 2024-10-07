@@ -16,7 +16,7 @@ public class IntegrationTest {
 	private WebTestClient webClient;
 
 	@Test
-	public void test() {
+	public void test123() {
 		this.webClient.get().uri("/ui/hello.xhtml").exchange().expectStatus().isOk();
 	}
 
